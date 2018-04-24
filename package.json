@@ -1,0 +1,29 @@
+{
+  "name": "test-johnnyfive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "johnny-five": "^0.11.6",
+    "music-scale": "^1.2.0",
+    "next": "^3.2.2",
+    "nodebots-interchange": "^1.1.6",
+    "proton-js": "^2.2.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-load-script": "0.0.6",
+    "react-websocket": "^1.2.0",
+    "styled-components": "^2.2.0",
+    "ws": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "arduino": "node arduino.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
