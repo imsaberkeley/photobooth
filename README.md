@@ -1,0 +1,3 @@
+README
+======
+squre.hack# photobooth
