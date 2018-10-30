@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import globalCss from '../css/global.css.js'
-import { Button, Score, CountDownDigit } from '../components/elements'
+import { Button, CountDownDigit } from '../components/elements'
 import Loading from '../components/loading'
 import _ from 'lodash'
 
@@ -105,7 +105,7 @@ export default class Index extends React.Component {
           }
           {appState == STATE_WAITING_PHOTO &&
             <div>
-              <h2>Waiting for the camera</h2>
+              <h2>Look at the camera!!</h2>
               <Loading />
             </div>
           }

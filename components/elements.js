@@ -19,14 +19,6 @@ export const Button = styled.button`
   transition: transform 0.1s;
 `
 
-export const Score = styled.h2`
-  font-size: 120px;
-  margin: 0;
-  position: absolute;
-  top: 0px;
-  right: 40px;
-`
-
 export const CountDownDigit = styled.h1`
   font-size: 220px;
   top: 20px;

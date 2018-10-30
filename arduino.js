@@ -130,7 +130,7 @@ board.on("ready", function() {
 
   forceResistor2.on("data", function() {
     fsr2 = this.value
-    //console.log(fsr2)
+    // console.log(fsr2)
     if(!fsr2OneShot) {
       if(fsr2 > 400) {
         fsr2Hit = true
